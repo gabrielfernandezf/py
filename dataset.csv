@@ -1,0 +1,61 @@
+Data dictionary;;
+Index;Variable;Explanation
+0;credit_policy;"1 if the customer meets the credit underwriting criteria; 0 otherwise"
+1;purpose;The purpose of the loan
+2;int_rate;The interest rate of the loan (more risky borrowers are assigned higher interest rates)
+3;installment;The monthly installments owed by the borrower if the loan is funded
+4;log_annual_inc;The natural log of the self-reported annual income of the borrower
+5;dti;The debt-to-income ratio of the borrower (amount of debt divided by annual income)
+6;fico;The FICO credit score of the borrower
+7;days_with_cr_line;The number of days the borrower has had a credit line
+8;revol_bal;The borrower's revolving balance (amount unpaid at the end of the credit card billing cycle)
+9;revol_util;The borrower's revolving line utilization rate (the amount of the credit line used relative to total credit available)
+10;inq_last_6mths;The borrower's number of inquiries by creditors in the last 6 months
+11;delinq_2yrs;The number of times the borrower had been 30+ days past due on a payment in the past 2 years
+12;pub_rec;The borrower's number of derogatory public records
+13;not_fully_paid;"1 if the loan is not fully paid; 0 otherwise"
+14;loan_amount_1;Amount of the first loan requested by the customer
+15;loan_amount_2;Amount of the second loan requested by the customer
+16;loan_amount_3;Amount of the third loan requested by the customer
+17;loan_term_1;Term of the first loan in months
+18;loan_term_2;Term of the second loan in months
+19;loan_term_3;Term of the third loan in months
+20;loan_purpose_1;Purpose of the first loan
+21;loan_purpose_2;Purpose of the second loan
+22;loan_purpose_3;Purpose of the third loan
+23;interest_rate_1;Interest rate of the first loan
+24;interest_rate_2;Interest rate of the second loan
+25;interest_rate_3;Interest rate of the third loan
+26;credit_score_1;Credit score of the customer for the first loan
+27;credit_score_2;Credit score of the customer for the second loan
+28;credit_score_3;Credit score of the customer for the third loan
+29;loan_status_1;Status of the first loan (paid)
+30;loan_status_2;Status of the second loan (paid)
+31;loan_status_3;Status of the third loan (paid)
+32;employment_status;Employment status of the customer (current employment
+33;years_at_current_job;Number of years the customer has been in their current job
+34;home_ownership;Type of property owned by the customer (rented
+35;num_credit_lines;Number of open credit lines by the customer
+36;total_credit_limit;Total credit limit available to the customer
+37;num_open_accounts;Number of open accounts by the customer
+38;num_dependents;Number of dependents of the customer
+39;education_level;Educational level of the customer (high school
+40;marital_status;Marital status of the customer
+41;housing_type;Type of housing for the customer (apartment
+42;years_in_residence;Number of years the customer has lived in their current residence
+43;num_delinquencies;Number of times the customer has been delinquent on payments
+44;bankruptcy_history;Customer's bankruptcy history (whether they have declared bankruptcy or not)
+45;num_inquiries_6mths;Number of inquiries made by credit entities in the last 6 months
+46;credit_utilization;Total credit utilization by the customer relative to their total limit.
+47;principal_balance_1;Outstanding principal for each loan.
+48;principal_balance_2;Outstanding principal for each loan.
+49;principal_balance_3;Outstanding principal for each loan.
+50;interest_paid_1;Accrued interest paid to date for each loan.
+51;interest_paid_2;Accrued interest paid to date for each loan.
+52;interest_paid_3;Accrued interest paid to date for each loan.
+53;payments_made_1;Payments made for each loan.
+54;payments_made_2;Payments made for each loan.
+55;payments_made_3;Payments made for each loan.
+56;remaining_payments_1;Remaining payments for each loan.
+57;remaining_payments_2;Remaining payments for each loan.
+58;remaining_payments_3;Remaining payments for each loan.
